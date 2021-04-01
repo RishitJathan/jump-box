@@ -75,7 +75,7 @@ function draw() {
 
       if(gameObject2.isTouching(gameObject5) && gameObject5.bounceOff(gameObject2)){
         gameObject5.shapeColor="red";
-        music.play();
+        music.stop();
     }
 
       if(gameObject3.isTouching(gameObject5) && gameObject5.bounceOff(gameObject3)){
@@ -85,7 +85,7 @@ function draw() {
 
       if(gameObject4.isTouching(gameObject5) && gameObject5.bounceOff(gameObject4)){
         gameObject5.shapeColor="darkblue";
-        music.play();
+        music.stop();
       }
 
 drawSprites();
